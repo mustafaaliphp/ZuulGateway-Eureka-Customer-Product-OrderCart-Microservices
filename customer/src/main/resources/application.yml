@@ -1,0 +1,39 @@
+eureka:
+  instance:
+    leaseRenewalIntervalInSeconds: 1
+    leaseExpirationDurationInSeconds: 2
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8761/eureka/
+    healthcheck:
+      enabled: true
+    lease:
+      duration: 5
+
+spring:
+  application:
+    name: customer-service
+    
+
+  
+management:
+  security:
+    enabled: false
+
+logging:
+  level:
+    com.edureka: DEBUG
+    
+
+
+#security:
+#  oauth2:
+#    client:
+#       clientId: your client Id
+#       clientSecret: your client secret
+#       accessTokenUri: https://github.com/login/oauth/access_token
+#       userAuthorizationUri: https://github.com/login/oauth/authorize
+#       clientAuthenticationScheme: form
+#    resource:
+#      user-info-uri: https://api.github.com/user
+#      prefer-token-info: false

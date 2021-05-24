@@ -1,0 +1,453 @@
+2021-05-24 07:36:07.990  INFO 9700 --- [main] com.product.app.ProductApplication       : No active profile set, falling back to default profiles: default
+2021-05-24 07:36:09.127  INFO 9700 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-24 07:36:09.204  INFO 9700 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 69ms. Found 2 JPA repository interfaces.
+2021-05-24 07:36:09.352  WARN 9700 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2021-05-24 07:36:09.370  WARN 9700 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2021-05-24 07:36:09.566  INFO 9700 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=694a7029-31aa-3fb4-bbaf-d4d3f9cfb86f
+2021-05-24 07:36:10.048  INFO 9700 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2021-05-24 07:36:10.056  INFO 9700 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-24 07:36:10.056  INFO 9700 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-24 07:36:10.237  INFO 9700 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-24 07:36:10.237  INFO 9700 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2207 ms
+2021-05-24 07:36:10.356  WARN 9700 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2021-05-24 07:36:10.356  INFO 9700 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-05-24 07:36:10.366  INFO 9700 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@31880efa
+2021-05-24 07:36:10.673  INFO 9700 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-24 07:36:10.717  INFO 9700 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-05-24 07:36:10.834  INFO 9700 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-24 07:36:10.935  INFO 9700 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-05-24 07:36:11.468  INFO 9700 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-05-24 07:36:11.488  INFO 9700 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-05-24 07:36:12.718  INFO 9700 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-24 07:36:12.727  INFO 9700 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-24 07:36:13.397  WARN 9700 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-24 07:36:13.810  INFO 9700 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-05-24 07:36:13.881  INFO 9700 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-24 07:36:14.000  WARN 9700 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2021-05-24 07:36:14.000  INFO 9700 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-05-24 07:36:14.189  INFO 9700 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-24 07:36:14.631  INFO 9700 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses Jersey
+2021-05-24 07:36:14.673  WARN 9700 --- [main] ockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2021-05-24 07:36:14.849  INFO 9700 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-24 07:36:14.851  INFO 9700 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-24 07:36:14.862  INFO 9700 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2021-05-24 07:36:14.905  INFO 9700 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-05-24 07:36:14.960  INFO 9700 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-05-24 07:36:15.164  INFO 9700 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2021-05-24 07:36:15.164  INFO 9700 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2021-05-24 07:36:15.333  INFO 9700 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2021-05-24 07:36:15.333  INFO 9700 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2021-05-24 07:36:15.525  INFO 9700 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-05-24 07:36:15.557  INFO 9700 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-05-24 07:36:15.557  INFO 9700 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-05-24 07:36:15.557  INFO 9700 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-05-24 07:36:15.557  INFO 9700 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-05-24 07:36:15.557  INFO 9700 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-05-24 07:36:15.558  INFO 9700 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2021-05-24 07:36:15.558  INFO 9700 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-05-24 07:36:15.690  INFO 9700 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2021-05-24 07:36:15.694  INFO 9700 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 1
+2021-05-24 07:36:15.697  INFO 9700 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-05-24 07:36:15.701  INFO 9700 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1621859775700 with initial instances count: 1
+2021-05-24 07:36:15.707  INFO 9700 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application PRODUCT-SERVICE with eureka with status UP
+2021-05-24 07:36:15.708  INFO 9700 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1621859775708, current=UP, previous=STARTING]
+2021-05-24 07:36:15.709  WARN 9700 --- [main] c.n.discovery.InstanceInfoReplicator     : Ignoring onDemand update due to rate limiter
+2021-05-24 07:36:15.722  INFO 9700 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT-SERVICE/10.0.0.110:product-service:8082: registering service...
+2021-05-24 07:36:15.747  INFO 9700 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2021-05-24 07:36:15.749  INFO 9700 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8082
+2021-05-24 07:36:15.749  INFO 9700 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT-SERVICE/10.0.0.110:product-service:8082 - registration status: 204
+2021-05-24 07:36:15.855  INFO 9700 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-05-24 07:36:15.866  INFO 9700 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-05-24 07:36:15.915  INFO 9700 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-05-24 07:36:16.114  INFO 9700 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_1
+2021-05-24 07:36:16.117  INFO 9700 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_2
+2021-05-24 07:36:16.184  INFO 9700 --- [main] com.product.app.ProductApplication       : Started ProductApplication in 9.335 seconds (JVM running for 10.334)
+2021-05-24 07:40:08.475  INFO 9700 --- [RMI TCP Connection(13)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-05-24 07:40:08.476  INFO 9700 --- [RMI TCP Connection(13)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application PRODUCT-SERVICE with eureka with status DOWN
+2021-05-24 07:40:08.476  INFO 9700 --- [RMI TCP Connection(13)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1621860008476, current=DOWN, previous=UP]
+2021-05-24 07:40:08.482  INFO 9700 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1621860008482, current=UP, previous=DOWN]
+2021-05-24 07:40:08.483  INFO 9700 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT-SERVICE/10.0.0.110:product-service:8082: registering service...
+2021-05-24 07:40:08.487  INFO 9700 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT-SERVICE/10.0.0.110:product-service:8082 - registration status: 204
+2021-05-24 07:40:08.502  INFO 9700 --- [RMI TCP Connection(13)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-05-24 07:40:08.504  INFO 9700 --- [RMI TCP Connection(13)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-05-24 07:40:08.509  WARN 9700 --- [RMI TCP Connection(13)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [RxIoScheduler-1 (Evictor)] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@14.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@14.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@14.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1661)
+ java.base@14.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@14.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+ java.base@14.0.2/java.lang.Thread.run(Thread.java:832)
+2021-05-24 07:40:08.518  INFO 9700 --- [RMI TCP Connection(13)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-24 07:40:08.532  INFO 9700 --- [RMI TCP Connection(13)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-05-24 07:40:08.535  INFO 9700 --- [RMI TCP Connection(13)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-05-24 07:40:08.546  INFO 9700 --- [RMI TCP Connection(13)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-05-24 07:40:08.548  INFO 9700 --- [RMI TCP Connection(13)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2021-05-24 07:40:11.554  INFO 9700 --- [RMI TCP Connection(13)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2021-05-24 07:40:11.562  INFO 9700 --- [RMI TCP Connection(13)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT-SERVICE/10.0.0.110:product-service:8082 - deregister  status: 200
+2021-05-24 07:40:11.592  INFO 9700 --- [RMI TCP Connection(13)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2021-05-24 12:10:07.194  INFO 2924 --- [main] com.product.app.ProductApplication       : No active profile set, falling back to default profiles: default
+2021-05-24 12:10:08.259  INFO 2924 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-24 12:10:08.354  INFO 2924 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 86ms. Found 2 JPA repository interfaces.
+2021-05-24 12:10:08.513  WARN 2924 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2021-05-24 12:10:08.536  WARN 2924 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2021-05-24 12:10:08.701  INFO 2924 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=694a7029-31aa-3fb4-bbaf-d4d3f9cfb86f
+2021-05-24 12:10:09.173  INFO 2924 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2021-05-24 12:10:09.183  INFO 2924 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-24 12:10:09.184  INFO 2924 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-24 12:10:09.394  INFO 2924 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-24 12:10:09.395  INFO 2924 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2167 ms
+2021-05-24 12:10:09.518  WARN 2924 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2021-05-24 12:10:09.519  INFO 2924 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-05-24 12:10:09.531  INFO 2924 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@6bfdaa7a
+2021-05-24 12:10:09.906  INFO 2924 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-24 12:10:09.951  INFO 2924 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-05-24 12:10:10.074  INFO 2924 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-24 12:10:10.180  INFO 2924 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-05-24 12:10:10.526  INFO 2924 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-05-24 12:10:10.539  INFO 2924 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-05-24 12:10:18.119  INFO 2924 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-24 12:10:18.149  INFO 2924 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-24 12:10:18.935  WARN 2924 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-24 12:10:19.523  INFO 2924 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-05-24 12:10:19.590  INFO 2924 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-24 12:10:19.691  WARN 2924 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2021-05-24 12:10:19.691  INFO 2924 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-05-24 12:10:19.850  INFO 2924 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-24 12:10:20.367  INFO 2924 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses Jersey
+2021-05-24 12:10:20.450  WARN 2924 --- [main] ockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2021-05-24 12:10:20.685  INFO 2924 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-05-24 12:10:20.744  INFO 2924 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-05-24 12:10:20.939  INFO 2924 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2021-05-24 12:10:20.939  INFO 2924 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2021-05-24 12:10:21.056  INFO 2924 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2021-05-24 12:10:21.056  INFO 2924 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2021-05-24 12:10:21.235  INFO 2924 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-05-24 12:10:21.270  INFO 2924 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-05-24 12:10:21.270  INFO 2924 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-05-24 12:10:21.270  INFO 2924 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-05-24 12:10:21.270  INFO 2924 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-05-24 12:10:21.271  INFO 2924 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-05-24 12:10:21.271  INFO 2924 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2021-05-24 12:10:21.271  INFO 2924 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-05-24 12:10:21.459  INFO 2924 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2021-05-24 12:10:21.463  INFO 2924 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 1
+2021-05-24 12:10:21.467  INFO 2924 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-05-24 12:10:21.471  INFO 2924 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1621876221470 with initial instances count: 2
+2021-05-24 12:10:21.476  INFO 2924 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application PRODUCT-SERVICE with eureka with status UP
+2021-05-24 12:10:21.478  INFO 2924 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1621876221478, current=UP, previous=STARTING]
+2021-05-24 12:10:21.479  WARN 2924 --- [main] c.n.discovery.InstanceInfoReplicator     : Ignoring onDemand update due to rate limiter
+2021-05-24 12:10:21.494  INFO 2924 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT-SERVICE/10.0.0.110:product-service:8082: registering service...
+2021-05-24 12:10:21.519  INFO 2924 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2021-05-24 12:10:21.520  INFO 2924 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8082
+2021-05-24 12:10:21.543  INFO 2924 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT-SERVICE/10.0.0.110:product-service:8082 - registration status: 204
+2021-05-24 12:10:21.635  INFO 2924 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-05-24 12:10:21.646  INFO 2924 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-05-24 12:10:21.705  INFO 2924 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-05-24 12:10:21.939  INFO 2924 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_1
+2021-05-24 12:10:21.942  INFO 2924 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_2
+2021-05-24 12:10:22.080  INFO 2924 --- [main] com.product.app.ProductApplication       : Started ProductApplication in 16.052 seconds (JVM running for 17.214)
+2021-05-24 12:10:22.111  INFO 2924 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-24 12:10:22.111  INFO 2924 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-24 12:10:22.120  INFO 2924 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2021-05-24 12:15:21.279  INFO 2924 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-05-24 12:20:21.290  INFO 2924 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-05-24 12:25:21.305  INFO 2924 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-05-24 12:30:21.322  INFO 2924 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-05-24 12:34:08.320  INFO 2924 --- [http-nio-8082-exec-1] c.p.app.controller.ProductController     : /product - > adding product
+2021-05-24 12:35:21.326  INFO 2924 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-05-24 12:38:19.627  INFO 2924 --- [RMI TCP Connection(42)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-05-24 12:38:19.628  INFO 2924 --- [RMI TCP Connection(42)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application PRODUCT-SERVICE with eureka with status DOWN
+2021-05-24 12:38:19.628  INFO 2924 --- [RMI TCP Connection(42)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1621877899628, current=DOWN, previous=UP]
+2021-05-24 12:38:19.633  INFO 2924 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1621877899633, current=UP, previous=DOWN]
+2021-05-24 12:38:19.634  INFO 2924 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT-SERVICE/10.0.0.110:product-service:8082: registering service...
+2021-05-24 12:38:19.643  INFO 2924 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT-SERVICE/10.0.0.110:product-service:8082 - registration status: 204
+2021-05-24 12:38:19.655  INFO 2924 --- [RMI TCP Connection(42)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-05-24 12:38:19.659  INFO 2924 --- [RMI TCP Connection(42)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-05-24 12:38:19.662  WARN 2924 --- [RMI TCP Connection(42)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [RxIoScheduler-1 (Evictor)] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@14.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@14.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@14.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1661)
+ java.base@14.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@14.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+ java.base@14.0.2/java.lang.Thread.run(Thread.java:832)
+2021-05-24 12:38:19.672  INFO 2924 --- [RMI TCP Connection(42)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-24 12:38:19.687  INFO 2924 --- [RMI TCP Connection(42)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-05-24 12:38:19.701  INFO 2924 --- [RMI TCP Connection(42)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-05-24 12:38:19.709  INFO 2924 --- [RMI TCP Connection(42)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-05-24 12:38:19.711  INFO 2924 --- [RMI TCP Connection(42)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2021-05-24 12:38:22.712  WARN 2924 --- [DiscoveryClient-0] c.netflix.discovery.TimedSupervisorTask  : task supervisor shutting down, can't accept the task
+2021-05-24 12:38:22.713  INFO 2924 --- [RMI TCP Connection(42)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2021-05-24 12:38:22.718  INFO 2924 --- [RMI TCP Connection(42)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT-SERVICE/10.0.0.110:product-service:8082 - deregister  status: 200
+2021-05-24 12:38:22.739  INFO 2924 --- [RMI TCP Connection(42)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2021-05-24 12:38:30.599  INFO 11232 --- [main] com.product.app.ProductApplication       : No active profile set, falling back to default profiles: default
+2021-05-24 12:38:31.703  INFO 11232 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-24 12:38:31.806  INFO 11232 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 93ms. Found 2 JPA repository interfaces.
+2021-05-24 12:38:31.944  WARN 11232 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2021-05-24 12:38:31.968  WARN 11232 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2021-05-24 12:38:32.135  INFO 11232 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=694a7029-31aa-3fb4-bbaf-d4d3f9cfb86f
+2021-05-24 12:38:32.666  INFO 11232 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2021-05-24 12:38:32.675  INFO 11232 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-24 12:38:32.675  INFO 11232 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-24 12:38:32.847  INFO 11232 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-24 12:38:32.847  INFO 11232 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2228 ms
+2021-05-24 12:38:32.969  WARN 11232 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2021-05-24 12:38:32.970  INFO 11232 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-05-24 12:38:32.980  INFO 11232 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@6d9428f3
+2021-05-24 12:38:33.274  INFO 11232 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-24 12:38:33.316  INFO 11232 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-05-24 12:38:33.453  INFO 11232 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-24 12:38:33.558  INFO 11232 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-05-24 12:38:33.905  INFO 11232 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-05-24 12:38:33.919  INFO 11232 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-05-24 12:38:34.745  INFO 11232 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-24 12:38:34.754  INFO 11232 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-24 12:38:35.397  WARN 11232 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-24 12:38:35.815  INFO 11232 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-05-24 12:38:35.882  INFO 11232 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-24 12:38:35.993  WARN 11232 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2021-05-24 12:38:35.993  INFO 11232 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-05-24 12:38:36.135  INFO 11232 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-24 12:38:36.533  INFO 11232 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses Jersey
+2021-05-24 12:38:36.564  WARN 11232 --- [main] ockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2021-05-24 12:38:36.683  INFO 11232 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-05-24 12:38:36.711  INFO 11232 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-05-24 12:38:36.835  INFO 11232 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2021-05-24 12:38:36.836  INFO 11232 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2021-05-24 12:38:37.003  INFO 11232 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2021-05-24 12:38:37.004  INFO 11232 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2021-05-24 12:38:37.010  INFO 11232 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-24 12:38:37.012  INFO 11232 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-24 12:38:37.025  INFO 11232 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2021-05-24 12:38:37.275  INFO 11232 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-05-24 12:38:37.313  INFO 11232 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-05-24 12:38:37.314  INFO 11232 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-05-24 12:38:37.314  INFO 11232 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-05-24 12:38:37.314  INFO 11232 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-05-24 12:38:37.314  INFO 11232 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-05-24 12:38:37.314  INFO 11232 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2021-05-24 12:38:37.315  INFO 11232 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-05-24 12:38:37.473  INFO 11232 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2021-05-24 12:38:37.476  INFO 11232 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 1
+2021-05-24 12:38:37.479  INFO 11232 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-05-24 12:38:37.483  INFO 11232 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1621877917482 with initial instances count: 4
+2021-05-24 12:38:37.488  INFO 11232 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application PRODUCT-SERVICE with eureka with status UP
+2021-05-24 12:38:37.488  INFO 11232 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1621877917488, current=UP, previous=STARTING]
+2021-05-24 12:38:37.489  WARN 11232 --- [main] c.n.discovery.InstanceInfoReplicator     : Ignoring onDemand update due to rate limiter
+2021-05-24 12:38:37.501  INFO 11232 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT-SERVICE/10.0.0.110:product-service:8082: registering service...
+2021-05-24 12:38:37.525  INFO 11232 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT-SERVICE/10.0.0.110:product-service:8082 - registration status: 204
+2021-05-24 12:38:37.526  INFO 11232 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2021-05-24 12:38:37.528  INFO 11232 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8082
+2021-05-24 12:38:37.640  INFO 11232 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-05-24 12:38:37.651  INFO 11232 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-05-24 12:38:37.703  INFO 11232 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-05-24 12:38:37.897  INFO 11232 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_1
+2021-05-24 12:38:37.900  INFO 11232 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_2
+2021-05-24 12:38:37.966  INFO 11232 --- [main] com.product.app.ProductApplication       : Started ProductApplication in 8.51 seconds (JVM running for 9.436)
+2021-05-24 12:40:18.402  INFO 11232 --- [http-nio-8082-exec-1] c.p.app.controller.ProductController     : /product - > calling order service and adding item
+2021-05-24 12:43:37.332  INFO 11232 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-05-24 12:48:37.345  INFO 11232 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-05-24 12:53:37.355  INFO 11232 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-05-24 12:58:37.358  INFO 11232 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-05-24 13:03:37.375  INFO 11232 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-05-24 13:07:25.889  INFO 11232 --- [http-nio-8082-exec-3] c.p.app.controller.ProductController     : /product - > calling order service and adding item
+2021-05-24 13:08:37.400  INFO 11232 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-05-24 13:13:37.409  INFO 11232 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-05-24 13:18:37.411  INFO 11232 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-05-24 13:23:37.425  INFO 11232 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-05-24 13:28:37.439  INFO 11232 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-05-24 13:32:52.462  WARN 11232 --- [DiscoveryClient-1] c.netflix.discovery.TimedSupervisorTask  : task supervisor timed out
+
+java.util.concurrent.TimeoutException: null
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204) ~[na:na]
+	at com.netflix.discovery.TimedSupervisorTask.run(TimedSupervisorTask.java:68) ~[eureka-client-1.10.11.jar:1.10.11]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:832) ~[na:na]
+
+2021-05-24 13:33:37.444  INFO 11232 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-05-24 13:38:37.457  INFO 11232 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-05-24 13:42:23.740  INFO 11232 --- [http-nio-8082-exec-5] c.p.app.controller.ProductController     : /product - > calling order service and adding item
+2021-05-24 13:43:37.471  INFO 11232 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-05-24 13:48:37.482  INFO 11232 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-05-24 13:53:37.486  INFO 11232 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-05-24 13:58:37.491  INFO 11232 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-05-24 14:03:37.507  INFO 11232 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-05-24 14:08:37.512  INFO 11232 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-05-24 14:13:37.685  INFO 11232 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-05-24 14:18:37.695  INFO 11232 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-05-24 14:23:37.703  INFO 11232 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-05-24 14:28:37.706  INFO 11232 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-05-24 14:33:37.711  INFO 11232 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-05-24 14:36:47.679  WARN 11232 --- [DiscoveryClient-0] c.netflix.discovery.TimedSupervisorTask  : task supervisor timed out
+
+java.util.concurrent.TimeoutException: null
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204) ~[na:na]
+	at com.netflix.discovery.TimedSupervisorTask.run(TimedSupervisorTask.java:68) ~[eureka-client-1.10.11.jar:1.10.11]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:832) ~[na:na]
+
+2021-05-24 14:38:37.719  INFO 11232 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-05-24 14:43:37.799  INFO 11232 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-05-24 14:48:37.808  INFO 11232 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-05-24 14:53:37.823  INFO 11232 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-05-24 14:56:09.297  INFO 11232 --- [http-nio-8082-exec-7] c.p.app.controller.ProductController     : /product - > calling order service and adding item
+2021-05-24 14:56:10.826  INFO 11232 --- [http-nio-8082-exec-8] c.p.app.controller.ProductController     : /product - > calling order service and adding item
+2021-05-24 14:56:37.094  INFO 11232 --- [http-nio-8082-exec-9] c.p.app.controller.ProductController     : /product - > calling order service and adding item
+2021-05-24 14:58:37.827  INFO 11232 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-05-24 15:01:39.057  INFO 11232 --- [RMI TCP Connection(152)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-05-24 15:01:39.062  INFO 11232 --- [RMI TCP Connection(152)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application PRODUCT-SERVICE with eureka with status DOWN
+2021-05-24 15:01:39.063  INFO 11232 --- [RMI TCP Connection(152)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1621886499063, current=DOWN, previous=UP]
+2021-05-24 15:01:39.066  INFO 11232 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1621886499066, current=UP, previous=DOWN]
+2021-05-24 15:01:39.067  INFO 11232 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT-SERVICE/10.0.0.110:product-service:8082: registering service...
+2021-05-24 15:01:39.072  INFO 11232 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT-SERVICE/10.0.0.110:product-service:8082 - registration status: 204
+2021-05-24 15:01:39.108  INFO 11232 --- [RMI TCP Connection(152)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-05-24 15:01:39.113  INFO 11232 --- [RMI TCP Connection(152)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-05-24 15:01:39.119  WARN 11232 --- [RMI TCP Connection(152)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [RxIoScheduler-1 (Evictor)] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@14.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@14.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@14.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1661)
+ java.base@14.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@14.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+ java.base@14.0.2/java.lang.Thread.run(Thread.java:832)
+2021-05-24 15:01:39.120  WARN 11232 --- [RMI TCP Connection(152)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [RxComputationScheduler-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@14.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@14.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@14.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1661)
+ java.base@14.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@14.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+ java.base@14.0.2/java.lang.Thread.run(Thread.java:832)
+2021-05-24 15:01:39.121  WARN 11232 --- [RMI TCP Connection(152)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [HystrixTimer-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@14.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@14.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@14.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:505)
+ java.base@14.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3137)
+ java.base@14.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1614)
+ java.base@14.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1170)
+ java.base@14.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+ java.base@14.0.2/java.lang.Thread.run(Thread.java:832)
+2021-05-24 15:01:39.122  WARN 11232 --- [RMI TCP Connection(152)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [hystrix-ProductService-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@14.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@14.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
+ java.base@14.0.2/java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460)
+ java.base@14.0.2/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:361)
+ java.base@14.0.2/java.util.concurrent.SynchronousQueue.take(SynchronousQueue.java:920)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+ java.base@14.0.2/java.lang.Thread.run(Thread.java:832)
+2021-05-24 15:01:39.122  WARN 11232 --- [RMI TCP Connection(152)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [HystrixTimer-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@14.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@14.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@14.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:505)
+ java.base@14.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3137)
+ java.base@14.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1614)
+ java.base@14.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1170)
+ java.base@14.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+ java.base@14.0.2/java.lang.Thread.run(Thread.java:832)
+2021-05-24 15:01:39.123  WARN 11232 --- [RMI TCP Connection(152)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [hystrix-ProductService-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@14.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@14.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
+ java.base@14.0.2/java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460)
+ java.base@14.0.2/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:361)
+ java.base@14.0.2/java.util.concurrent.SynchronousQueue.take(SynchronousQueue.java:920)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+ java.base@14.0.2/java.lang.Thread.run(Thread.java:832)
+2021-05-24 15:01:39.124  WARN 11232 --- [RMI TCP Connection(152)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [HystrixTimer-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@14.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@14.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@14.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:505)
+ java.base@14.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3137)
+ java.base@14.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1614)
+ java.base@14.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1170)
+ java.base@14.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+ java.base@14.0.2/java.lang.Thread.run(Thread.java:832)
+2021-05-24 15:01:39.124  WARN 11232 --- [RMI TCP Connection(152)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [hystrix-ProductService-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@14.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@14.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
+ java.base@14.0.2/java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460)
+ java.base@14.0.2/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:361)
+ java.base@14.0.2/java.util.concurrent.SynchronousQueue.take(SynchronousQueue.java:920)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+ java.base@14.0.2/java.lang.Thread.run(Thread.java:832)
+2021-05-24 15:01:39.125  WARN 11232 --- [RMI TCP Connection(152)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [HystrixTimer-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@14.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@14.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@14.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:505)
+ java.base@14.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3137)
+ java.base@14.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1614)
+ java.base@14.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1177)
+ java.base@14.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+ java.base@14.0.2/java.lang.Thread.run(Thread.java:832)
+2021-05-24 15:01:39.126  WARN 11232 --- [RMI TCP Connection(152)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [hystrix-ProductService-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@14.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@14.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
+ java.base@14.0.2/java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460)
+ java.base@14.0.2/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:361)
+ java.base@14.0.2/java.util.concurrent.SynchronousQueue.take(SynchronousQueue.java:920)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+ java.base@14.0.2/java.lang.Thread.run(Thread.java:832)
+2021-05-24 15:01:39.127  WARN 11232 --- [RMI TCP Connection(152)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [hystrix-ProductService-5] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@14.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@14.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
+ java.base@14.0.2/java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460)
+ java.base@14.0.2/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:361)
+ java.base@14.0.2/java.util.concurrent.SynchronousQueue.take(SynchronousQueue.java:920)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+ java.base@14.0.2/java.lang.Thread.run(Thread.java:832)
+2021-05-24 15:01:39.127  WARN 11232 --- [RMI TCP Connection(152)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [hystrix-ProductService-6] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@14.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@14.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
+ java.base@14.0.2/java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460)
+ java.base@14.0.2/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:361)
+ java.base@14.0.2/java.util.concurrent.SynchronousQueue.take(SynchronousQueue.java:920)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+ java.base@14.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+ java.base@14.0.2/java.lang.Thread.run(Thread.java:832)
+2021-05-24 15:01:39.141  INFO 11232 --- [RMI TCP Connection(152)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-24 15:01:39.162  INFO 11232 --- [RMI TCP Connection(152)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-05-24 15:01:39.174  INFO 11232 --- [RMI TCP Connection(152)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-05-24 15:01:39.180  INFO 11232 --- [RMI TCP Connection(152)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-05-24 15:01:39.182  INFO 11232 --- [RMI TCP Connection(152)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2021-05-24 15:01:42.188  INFO 11232 --- [RMI TCP Connection(152)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2021-05-24 15:01:42.198  INFO 11232 --- [RMI TCP Connection(152)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT-SERVICE/10.0.0.110:product-service:8082 - deregister  status: 200
+2021-05-24 15:01:42.244  INFO 11232 --- [RMI TCP Connection(152)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
