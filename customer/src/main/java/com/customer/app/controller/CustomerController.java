@@ -129,11 +129,10 @@ public class CustomerController {
 	// calling order service
 	@PostMapping("/orders/{customerId}/carts")
 	public @ResponseBody ResponseEntity<Void> createCart(@RequestBody Cart cart,
-			@PathVariable(required = false) Long customerId, HttpServletRequest request) throws Exception {
+			@PathVariable(required = false) Long customerId) throws Exception {
 		LOG.log(Level.INFO, "/order - > calling order Microservice and Creating cart");
-		HttpHeaders header = new HttpHeaders();
 		customerService.callOrderServiceAndCreateCart(cart, customerId);
-		return new ResponseEntity<Void>(header, HttpStatus.CREATED);
+		return new ResponseEntity<Void>(HttpStatus.CREATED);
 	}
 	
 

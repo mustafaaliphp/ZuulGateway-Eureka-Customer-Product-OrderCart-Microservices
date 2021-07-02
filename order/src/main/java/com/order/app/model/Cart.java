@@ -38,7 +38,7 @@ public class Cart  {
 	@OneToMany(fetch = FetchType.EAGER , mappedBy = "cart", cascade = CascadeType.ALL, orphanRemoval = true)
 	@JsonIgnore
 	private List<LineItem> linesItems = new ArrayList<LineItem>();
-
+    
 	public Cart() {
 	}
 
