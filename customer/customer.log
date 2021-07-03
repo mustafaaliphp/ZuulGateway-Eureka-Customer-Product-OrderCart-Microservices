@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 2021-06-30 12:54:24.632  INFO 13772 --- [main] com.customer.app.CustomerApplication     : No active profile set, falling back to default profiles: default
 2021-06-30 12:54:25.951  INFO 13772 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
 2021-06-30 12:54:26.332  INFO 13772 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 372ms. Found 1 JPA repository interfaces.
@@ -119,6 +120,9 @@
 2021-06-30 13:02:11.261  INFO 13772 --- [RMI TCP Connection(18)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2021-06-30 13:02:11.273  INFO 13772 --- [RMI TCP Connection(18)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
 2021-06-30 13:02:11.275  INFO 13772 --- [RMI TCP Connection(18)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
-2021-06-30 13:02:14.282  INFO 13772 --- [RMI TCP Connection(18)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2021-06-30 13:02:14.282  INFO 13772 --- [RMI TCP Connection(18)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Unregistering ..
 2021-06-30 13:02:14.297  INFO 13772 --- [RMI TCP Connection(18)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CUSTOMER-SERVICE/10.0.0.110:customer-service:8081 - deregister  status: 200
 2021-06-30 13:02:14.318  INFO 13772 --- [RMI TCP Connection(18)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+=======
+
+>>>>>>> f289ac582de3c56cfe54d23cf512136d2fe9ab42
